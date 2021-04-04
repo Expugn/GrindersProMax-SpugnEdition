@@ -2,7 +2,7 @@
 Original Script: https://github.com/KritixKaung/PSO2-GrindersProMax/blob/master/readme.md
 
 ## Information
-This is a modified version of PSO2-GrindersProMax.
+This is a modified version of `PSO2-GrindersProMax` by `KritixKaung`.
 This is designed for the GLOBAL version of Phantasy Star Online 2, the Japan version may or may not be compatible with this.
 
 The differences between the original and this script is that it features a different buying route and an EX-Cube counter is included.

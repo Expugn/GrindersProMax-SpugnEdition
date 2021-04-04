@@ -17,7 +17,7 @@ If your performance has a huge difference from this the script might not perform
 Try increasing sleep timers in `50ms` increments.
 
 ## How To Use:
-
+**MAKE SURE TO RUN THIS SCRIPT AS ADMINISTRATOR**. Inputs may not work otherwise.
 ### Buying Process
 1. Make sure your Inventory and Material Storage are empty of Grinders.
 	- This is to ensure you can buy as much Grinders as possible.

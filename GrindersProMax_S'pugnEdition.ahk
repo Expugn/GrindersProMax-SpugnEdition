@@ -215,7 +215,7 @@ UpdateStatus(status)
 F1::WinActivate, GrindersProMax - S'pugn Edition
 return
 
-F2::Run https://github.com/Expugn/GrindersProMax-SpugnEdition/blob/master/README.md
+F2::Run https://github.com/Expugn/GrindersProMax-SpugnEdition/blob/main/README.md
 return 
 
 F4::ExitApp

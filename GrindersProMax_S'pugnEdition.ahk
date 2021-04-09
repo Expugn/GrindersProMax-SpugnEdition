@@ -3,16 +3,20 @@ This is a modified version of PSO2-GrindersProMax to have a different depositing
 how many EX-Cubes will be used.
 
 Original Script:
-https://github.com/KritixKaung/PSO2-GrindersProMax/blob/master/readme.md
+https://github.com/KritixKaung/PSO2-GrindersProMax
 
-!Important Note!
+IMPORANT NOTE - REGARDING Alt-TabING:
 It is best to bring this program to foreground with F1 to perform tasks while you're in the game instead of alt tabbing because alt tabbing 
 might mess up with selections in the game. It is important that you don't input anything into the game while the script is running.
 
-!Script Timing!
+Script Timing:
 The original script is created for 144fps+ and around 100ping to server but has since been tweaked for a different setup.
 If your performance has a huge difference from this the script might not perform as intended for you. 
 Try increasing sleep timers in 50ms increments.
+
+Requirements:
+- AutoHotKey (Tested on v1.1.33.06)
+- PSO2 Material Storage Subscription 
 
 How To Use:
 MAKE SURE YOU RUN THIS SCRIPT IN ADMINISTRATOR MODE, INPUTS MAY NOT WORK OTHERWISE.
@@ -119,12 +123,12 @@ StartBuying: ; "Start Buying" BUTTON ACTION
 			Sleep, 200
 			ControlSend,, {Left}, ahk_id %programid1%          ; HOVER OVER "Yes"
 			Sleep, 200
-			ControlSend,, {Enter}, ahk_id %programid1%         ; CONFIRM BATCH MOVE (SERVER ACTION?)
+			ControlSend,, {Enter}, ahk_id %programid1%         ; CONFIRM BATCH MOVE (SERVER ACTION)
 			Sleep, 200
 			ControlSend,, {Esc}, ahk_id %programid1%           ; CLOSE STORAGE MENU
 			Sleep, 400
 			; SHOP MENU, "Open Storage" IS HOVERED
-			ControlSend,, {Up}, ahk_id %programid1% ; Mouse over "EX-Cube Exchange Shop"
+			ControlSend,, {Up}, ahk_id %programid1%            ; HOVER OVER "EX-Cube Exchange Shop"
 			Sleep, 400
 			; ... REPEAT LOOP ...
 			--GrinderMaxBuyAmount
